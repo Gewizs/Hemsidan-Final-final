@@ -1,0 +1,132 @@
+body { background-image: url();
+    background-size: cover;
+    background-repeat: no repat;
+}
+
+h1 {
+ font-family: Arial, "Helvetica, sans-serif";
+}
+
+* {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+h1 {
+color: white;  
+margin-left: 10%;
+border-style: hidden;
+}
+body {
+ background-color: black;
+
+
+}
+a {
+ display:block;
+}
+
+nav {
+width: 100%;
+height: 165px;
+background-color: #fff;
+
+}
+
+ul li {
+ list-style: none;
+ display: inline-block;
+ line-height: 165px;
+}
+
+ul li a {
+ text-decoration: none;
+ font-size: 60px;
+ font-family: arial;
+ color: #2e2e1e;
+ padding: 0 160px;
+ display: block;
+}
+
+ul li a:hover {
+ color: gray;
+}
+.logo_container {
+ background-image: url(/Hemsida/NasusSquare.png);
+ background-size: 100%;
+ height: 165px;
+ width: 173px;
+ float: left;
+}
+
+.footer {
+ width: 100vw;
+ display: block;
+ overflow: hidden;
+ padding: 70px 0;
+ box-sizing: border-box;
+ background-color: #18181a;
+}
+.bottom-footer {
+ display: block;
+ margin: 0 auto;
+ width: 1110px;
+ height: 100%;
+
+}
+.bottom-footer .logo-container{
+ width: 35%;
+ float: left;
+ height: 100%;
+ display: block;
+}
+.bottom-footer .logo-container .img {
+ width: 60px;
+ height: auto;
+}
+.bottom-footer .footer_three {
+ width: calc(21.6% - 20px);
+ margin-right: 10px;
+ float: left;
+ height: 100%;
+}
+
+.bottom-footer .footer_three:last-child {
+ margin-right: 0;
+}
+.bottom-footer .footer_three h1 {
+ font-family: 'arial';
+ font-size: 21px;
+ color: white;
+ display: block;
+ width: 100%;
+ margin-bottom: 20px;
+
+}
+.bottom-footer .footer_three a{
+ font-family: 'arial';
+ font-size: 18px;
+ color: white;
+ display: block;
+ font-weight: 200;
+ width: 100%;
+ padding-bottom: 5px;
+
+}
+.inner-footer .footer-three span{
+ color: white;
+ font-family: 'arial';
+ font-size: 16px;
+ font-weight: 200;
+ display: block;
+ width: 100%;
+ padding-top:20px;
+
+}
+
+.bildtext {
+    font-family: 'arial';
+    color: white;
+    display: inline-block;
+    vertical-align:top;
+}
